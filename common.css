@@ -1,0 +1,155 @@
+body, h1, h2, h3 {
+    margin: 0;
+}
+
+.common-div-for-user {
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.block-for-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: calc(50% - 10px);
+    height: calc((100% - 60px) / 5);
+    background-color: aliceblue;
+    border-radius: 8px;
+    border: 2px solid cadetblue;
+}
+
+/*===========================================User-details==================*/
+
+.main-div-user-details {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.div-for-all-details {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    background-color: beige;
+    border: 3px solid lightslategray;
+    border-radius: 9px;
+    margin-bottom: 30px;
+
+}
+
+
+.button-user-details {
+    width: 90%;
+}
+
+.list {
+    width: 90%;
+    margin: 30px auto;
+    padding: 0;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc((100% - 88px) / 5);
+
+    position: relative;
+    background-color: azure;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+.list-item h3 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.button-for-post-details {
+    position: absolute;
+    bottom: 5px;
+    width: fit-content;
+    text-align: center;
+    margin-top: auto;
+    border-radius: 5px;
+}
+
+/*=============================== Post-Details ================================*/
+
+.post-div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-info-about-post {
+    width: 90%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: floralwhite;
+    gap: 10px;
+}
+
+.main-info-about-post p br {
+    display: none;
+}
+
+.main-info-about-post p {
+    text-align: center;
+    margin: 0;
+}
+
+.comments-div {
+    width: 90%;
+    height: 70%;
+}
+
+.comments-div ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.comments-div ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    width: calc((100% - 26px) / 4);
+    text-align: center;
+    gap: 10px;
+    background-color: beige;
+    border: 1px solid bisque;
+    border-radius: 8px;
+    min-height: 215px;
+}
+
+.comments-div ul li p {
+    margin: 0;
+}
